@@ -10,7 +10,7 @@ async function fetchQuery({
 }: RequestHandlerArgs) {
   const url =
     import.meta.env.VITE_GRAPHQL_ENDPOINT ||
-    'https://readonlydemo.vendure.io/shop-api'
+    'https://matavavk.swedencentral.cloudapp.azure.com/shop-api'
 
   const headers = {}
   headers['Content-Type'] = 'application/json'
