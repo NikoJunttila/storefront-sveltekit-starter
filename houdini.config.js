@@ -1,6 +1,6 @@
 /** @type {import('houdini').ConfigFile} */
 const config = {
-	apiUrl: 'https://readonlydemo.vendure.io/shop-api',
+	apiUrl: 'https://matavavk.swedencentral.cloudapp.azure.com/shop-api',
 	plugins: {
 		'houdini-svelte': {
 			client: './src/client',
