@@ -5,7 +5,7 @@ import { sequence } from '@sveltejs/kit/hooks'
 export const handle = sequence(
   // Add graphiql
   handleGraphiql({
-    endpoint: 'https://readonlydemo.vendure.io/shop-api',
+    endpoint: 'https://matavavk.swedencentral.cloudapp.azure.com/shop-api',
     enabled: dev,
   })
 )
